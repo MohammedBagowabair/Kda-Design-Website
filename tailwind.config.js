@@ -4,15 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        night: { DEFAULT: '#191A33', 2: '#22244A', 3: '#2E3160' },
-        mist: { DEFAULT: '#F2F0EC', 2: '#E7E4EE' },
-        lilac: { DEFAULT: '#B9B3DC', ink: '#5B5394' },
-        amber: { DEFAULT: '#E9A84F', ink: '#8A5A12' },
-        muted: { DEFAULT: '#5F5E73', dark: '#A9A6BF' },
+        dusk: { DEFAULT: '#17151F', 2: '#221F2D', 3: '#2E2A3B', soft: '#B3ADC2' },
+        linen: { DEFAULT: '#F3EFE9', 2: '#E9E3DA', 3: '#D9D1C5' },
+        ink: { DEFAULT: '#1E1B26', soft: '#625E6B' },
+        lilac: { DEFAULT: '#C3B9F0', ink: '#5A4FA0', soft: '#E4DFF8' },
+        candle: '#E7B877',
       },
       fontFamily: {
-        display: ['Syne', 'system-ui', 'sans-serif'],
-        sans: ['"Albert Sans"', 'system-ui', 'sans-serif'],
+        serif: ['Cormorant', 'Georgia', 'serif'],
+        sans: ['Jost', 'system-ui', 'sans-serif'],
       },
     },
   },
